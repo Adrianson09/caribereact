@@ -30,7 +30,7 @@ const Sostenibilidad = () => {
     <div className="relative group">
       <img className="w-full transform transition duration-300 group-hover:rotate-24" src="/img/residenceinn.jpg" alt="Residence Inn Escazu Costa Rica" />
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
-        <p className="text-white text-lg font-bold">ResidenceInn Escazú Costa Rica</p>
+        <p className="text-white text-lg font-bold">Residence Inn Escazú Costa Rica</p>
       </div>
     </div>
     
