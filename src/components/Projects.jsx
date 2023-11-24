@@ -71,7 +71,7 @@ const Projects = () => {
               <div className='max-w-sm rounded overflow-hidden shadow-lg p-4'> 
                 <img className='w-full' src="/img/residenceinn.jpg" alt="Residence Inn Escazu Costa Rica" />
                 <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2 text-lime-800">ResidenceInn Escazú Costa Rica</div>
+                <div className="font-bold text-xl mb-2 text-lime-800">Residence Inn Escazú Costa Rica</div>
                   <p className="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                   </p>
