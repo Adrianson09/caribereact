@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
-import { Carousel } from "@material-tailwind/react";
 import { ListProjects } from "./ListProjects";
 
 

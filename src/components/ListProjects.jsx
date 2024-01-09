@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 // import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
 
@@ -17,7 +17,7 @@ export const ListProjects = () => {
 
 
 
-    <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+    <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/sjoar-ac-hotel-san-jose-escazu/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
 <div className="relative group">
 
   <img
@@ -34,13 +34,13 @@ export const ListProjects = () => {
 
       </div>
       </div>
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">AC by Marriott Escazú Costa Rica</p>
+        <p className="font-medium">AC by Marriott Escazú Costa Rica</p>
       </div>
     
 
@@ -54,7 +54,7 @@ export const ListProjects = () => {
 
     {/* Nuevo grid */}
 
-    <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+    <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/sjori-residence-inn-san-jose-escazu/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -71,13 +71,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Residence Inn Escazú Costa Rica</p>
+        <p className="font-medium">Residence Inn Escazú Costa Rica</p>
       </div>
     
 
@@ -90,7 +90,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/sjofa-fairfield-by-marriott-san-jose-airport-alajuela/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -107,13 +107,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Fairfield Alajuela Costa Rica</p>
+        <p className="font-medium">Fairfield Alajuela Costa Rica</p>
       </div>
     
 
@@ -127,7 +127,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/sjoap-courtyard-san-jose-airport-alajuela/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -144,13 +144,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Courtyard Alajuela Costa Rica</p>
+        <p className="font-medium">Courtyard Alajuela Costa Rica</p>
       </div>
     
 
@@ -163,7 +163,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.hyatt.com/en-US/hotel/costa-rica/hyatt-place-san-jose-pinares/sjozp?src=corp_lclb_gmb_seo_sjozp" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -180,13 +180,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Hyatt Place Pinares Costa Rica</p>
+        <p className="font-medium">Hyatt Place Pinares Costa Rica</p>
       </div>
     
 
@@ -199,7 +199,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/kincy-courtyard-kingston-jamaica/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -216,13 +216,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Courtyard Kingston Jamaica</p>
+        <p className="font-medium">Courtyard Kingston Jamaica</p>
       </div>
     
 
@@ -237,7 +237,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/sjual-aloft-san-juan/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -254,13 +254,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Aloft San Juan Puerto Rico</p>
+        <p className="font-medium">Aloft San Juan Puerto Rico</p>
       </div>
     
 
@@ -274,7 +274,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/hmocy-courtyard-hermosillo/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -291,13 +291,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Courtyard Hermosillo México</p>
+        <p className="font-medium">Courtyard Hermosillo México</p>
       </div>
     
 
@@ -312,7 +312,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/bjxcy-courtyard-leon-at-the-poliforum/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -329,13 +329,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Courtyard León México</p>
+        <p className="font-medium">Courtyard León México</p>
       </div>
     
 
@@ -350,7 +350,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/salcy-courtyard-san-salvador/overview" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -367,13 +367,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Courtyard San Salvador</p>
+        <p className="font-medium">Courtyard San Salvador</p>
       </div>
     
 
@@ -386,7 +386,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/salfi-fairfield-by-marriott-san-salvador/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -403,13 +403,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Fairfield San Salvador</p>
+        <p className="font-medium">Fairfield San Salvador</p>
       </div>
     
 
@@ -424,7 +424,7 @@ export const ListProjects = () => {
 
    {/* Nuevo grid */}
 
-   <a href="#" className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
+   <a rel="noreferrer" href="https://www.marriott.com/en-us/hotels/bgicy-courtyard-bridgetown-barbados/overview/" target='_blank' className=" block rounded-lg p-4 shadow-sm shadow-indigo-100">
     <div className="relative group">
   <img
     alt="Home"
@@ -441,13 +441,13 @@ export const ListProjects = () => {
       </div>
 </div>
 
-  <div class="mt-2">
+  <div className="mt-2">
    
 
       <div>
       
 
-        <p class="font-medium">Courtyard Barbados</p>
+        <p className="font-medium">Courtyard Barbados</p>
       </div>
     
 
