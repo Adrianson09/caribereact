@@ -76,12 +76,12 @@ const Vision = () => {
 {/* Nuestro equipo */}
 
 <div  className=" p-10 sm:p-0  mb-20  flex-row justify-center items-center text-center ">
-            <h1 className="  mb-4 pb-4 text-4xl font-bold text-[#6AAB33]">Nuestro Equipo de trabajo</h1>
+            <h1 className="  mb-4 pb-4 text-4xl font-bold text-[#6AAB33]">{t("team-heading")}</h1>
             <p class="mt-4 pb-10 sm:px-52 text-justify">
-            En nuestro equipo, nos dedicamos a la creación y gestión de inversiones hoteleras de estándares excepcionales, manteniendo un enfoque sostenible y rentable. Contamos con un conjunto de profesionales altamente capacitados y comprometidos que lideran cada proyecto con expertise y pasión, garantizando así resultados de calidad y excelencia en todas nuestras operaciones hoteleras.
+            {t("team-text")}
       </p>
   <div className="flex mx-auto justify-center">
-    <img src="/img/TeamCH.svg" alt="" />
+    <img className="rounded-lg" src="/img/TeamCH.svg" alt="" />
 
   </div>
   </div>
