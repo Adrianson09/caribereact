@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <header className='absolute w-full flex justify-between p-4 items-center scroll-smooth'>
             <a className='z-20 ' href="#logo">
-                <img id='logo' className='z-20 ' src="/img/logo-300x187.png" alt="Logo" width={150} height={77} />
+                <img id='logo' className='z-20 ' src="/img/CaribeHospitalitySVGGrey.svg" alt="Logo" width={250} height={177} />
             </a>
             <ul className=' flex-row hidden sm:flex w-full h-full z-20 items-center justify-center text-white transition duration-500 ease-in-out scroll-smooth'>
                 
@@ -41,8 +41,10 @@ const Navbar = () => {
                         <button className='animate-pulse  hover:bg-slate-50 hover:text-black transition duration-700 ease-in-out rounded-md border py-2 px-3 mx-2 ' onClick={changeLanguage} >{t("currentLang")}</button>
                         
                 </ul>
-                
-            <AiOutlineMenuFold onClick={handleNav} className='z-20  rounded-full text-white cursor-pointer  fixed right-10 top-10' size={25}/>
+           <div className='bg-[#6AAB33] rounded-full'>
+            
+            <AiOutlineMenuFold onClick={handleNav} className='z-20   text-[#6AAB33]  cursor-pointer  fixed right-10 top-10' size={25}/>
+           </div>     
             <div className={nav ? 'ease-in-out duration-500 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex-col z-10' 
             : 'absolute top-0 h-screen left-[-100%] ease-in-out duration-500 z-10'}>
                 <ul className='flex flex-col fixed w-full h-full items-center justify-center'>
