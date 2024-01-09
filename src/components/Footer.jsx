@@ -19,12 +19,13 @@ const Footer = () => {
     <Suspense>
 
 
-    <footer className='bg-black/90 text-white'>
+    <footer className='relative bg-black/90 text-white'>
         <div className='md:grid md:grid-cols-2 gap-10 container m-auto p-10'>
             <div className='mb-5 sm:mb-0'>
                 <h3>COSTA RICA</h3>
                 <ul>
                 <li>Tel: +(506) 2208-8890</li>
+                <li>Email: info@caribehospitality.com</li>
                 <li>205 Avenida Escazú, Piso 5, Suite 5,<br/>
                     10203 San José, Escazú,<br/>
                     San José, Costa Rica
@@ -39,6 +40,8 @@ const Footer = () => {
                 <li>Tel: +52 (55) 46313338
 
                 </li>
+                <li>Email: info@caribehospitality.com</li>
+
                 <li>Av. Del Imán #151, Int A110, Piso 1,<br/>
                     Suite B-38, Col. Pedregal De Carrasco.<br/>
                     México CDMX 04700
@@ -51,7 +54,33 @@ const Footer = () => {
             </div>
 
         </div>
+        
+
         <p className='text-center pb-2'>© {year}. {t("copy-right")}</p>
+        <ul class="absolute top-10 right-10 pb-4 flex justify-center gap-6 md:gap-8">
+      <li>
+        <a
+          href="https://www.linkedin.com/company/caribehospitality/"
+          rel="noreferrer"
+          target="_blank"
+          class="text-gray-700 transition hover:text-gray-700/75"
+        >
+          <span class="sr-only">Linkedin</span>
+         
+          <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="#6AAB33"/> <path d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z" fill="#6AAB33"/> <path d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z" fill="#6AAB33"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#6AAB33"/> </g>
+
+</svg>
+        </a>
+      </li>
+      </ul>
+       
+
     </footer>
     </Suspense>
 
