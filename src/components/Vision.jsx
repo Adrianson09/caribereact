@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
 import { ListProjects } from "./ListProjects";
+// import { Carousel } from "@material-tailwind/react";
 
 
 
@@ -77,7 +78,7 @@ const Vision = () => {
 
 <div  className=" p-10 sm:p-0  mb-20  flex-row justify-center items-center text-center ">
             <h1 className="  mb-4 pb-4 text-4xl font-bold text-[#6AAB33]">{t("team-heading")}</h1>
-            <p class="mt-4 pb-10 sm:px-52 text-justify">
+            <p className="mt-4 pb-10 sm:px-52 text-justify">
             {t("team-text")}
       </p>
   <div className="flex mx-auto justify-center">
@@ -93,6 +94,73 @@ const Vision = () => {
             <h1 className=" text-4xl font-bold text-[#6AAB33]">{t("portfolio")}</h1>
    </div>
     <ListProjects/>
+
+
+    {/* <div className="grid h-auto m-auto mx-auto my-10 w-[90%] p-10 grid-cols-1">
+
+      <Carousel>
+
+      
+        
+      <section  className="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+      <img
+        alt="Home"
+        src="/img/exterior1_final.png"
+        className="h-auto  w-auto rounded-md object-cover"
+      />
+
+      <div className="mt-2">
+      <div>
+        <p className="font-medium">AC by Marriott Escazú Costa Rica</p>
+      </div>
+    
+
+    <div className="mt-6  gap-10 text-xs">
+      <div className="flex justify-between sm:shrink-0  sm:gap-2">
+        <img src="/img/Imagen3.png" width={40} height={40} alt="" />
+        <img src="/img/Imagen3.png" width={40} height={40} alt="" />
+        <img src="/img/Imagen3.png" width={40} height={40} alt="" />
+        <img src="/img/Imagen3.png" width={40} height={40} alt="" />
+        <img src="/img/Imagen3.png" width={40} height={40} alt="" />
+        <img src="/img/Imagen3.png" width={40} height={40} alt="" />
+
+      </div>
+      </div>
+      </div>
+
+      
+    </section>
+      <section className="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+      <img
+        alt="Home"
+        src="/img/residenceinn.avif"
+        className="h-auto w-full rounded-md object-cover"
+      />
+
+      <div className="mt-2">
+      <div>
+        <p className="font-medium">Residence Inn Escazú Costa Rica</p>
+      </div>
+    
+
+    <div className="mt-6  gap-10 text-xs">
+      <div className="flex justify-between sm:shrink-0  sm:gap-2">
+        <img src="/img/Imagen2.jpg" width={40} height={40} alt="" />
+        <img src="/img/Imagen2.jpg" width={40} height={40} alt="" />
+        <img src="/img/Imagen2.jpg" width={40} height={40} alt="" />
+        <img src="/img/Imagen2.jpg" width={40} height={40} alt="" />
+        <img src="/img/Imagen2.jpg" width={40} height={40} alt="" />
+        <img src="/img/Imagen2.jpg" width={40} height={40} alt="" />
+
+      </div>
+      </div>
+      </div>
+
+      
+    </section>
+  </Carousel>
+  </div> */}
+
     </>
 
   )
