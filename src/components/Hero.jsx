@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="absolute top-0  w-full h-full flex flex-col justify-center items-center text-white ">
             <div className="  max-w-[1100px] m-auto absolute p-4 ">
                 <div className=" z-10 text-center font-bold text-5xl md:text-7xl drop-shadow-2xl animate-jump animate-once animate-duration-1000 animate-delay-200 animate-ease-in-out animate-normal animate-fill-forwards">
-                  <img id='logo' className='z-20 ' src="/img/CaribeHospitalitySVGGrey.svg" alt="Logo" width={450} height={377} />
+                  <img id='logo' className='z-20 ' src="/img/CaribeHospitalitySVGGrey.svg" alt="Logo" width={650} height={477} />
                 </div>
             </div>
         </div>

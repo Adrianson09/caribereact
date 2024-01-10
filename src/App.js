@@ -4,9 +4,9 @@
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Vision from "./components/Vision";
 // import Projects from "./components/Projects";
 // import Sostenibilidad from "./components/Sostenibilidad";
-import Vision from "./components/Vision";
 
 
 function App() {
@@ -15,10 +15,10 @@ function App() {
       <Navbar/>
       <Hero/>
       <Vision/>
+      <Footer/>
       {/* <Corporate/> */}
       {/* <Projects/> */}
       {/* <Sostenibilidad/> */}
-      <Footer/>
     </div>
   );
 }
