@@ -20,8 +20,8 @@ const Footer = () => {
 
 
     <footer className='relative bg-black/90 text-white'>
-        <div className='md:grid md:grid-cols-2 gap-10 container m-auto p-10'>
-            <div className='mb-5 sm:mb-0'>
+        <div className='md:grid md:grid-cols-2 gap-10 container mx-auto p-10'>
+            <div className='mb-5 sm:mb-0 sm:pl-48'>
                 <h3>COSTA RICA</h3>
                 <ul>
                 <li>Tel: +(506) 2208-8890</li>
