@@ -51,9 +51,24 @@ const Vision = () => {
         <img className=" absolute sm:top-10 top-6 right-10 " src="/img/sostenibilidad.svg" alt="Sostenibilidad " width={100} height={200} />
         </div> */}
 
-{/* Sostenibilidad */}
 
-        <div className=" p-20 mb-10   relative">
+
+{/* Nuestro equipo */}
+
+<div  className=" p-10 sm:p-0  mb-20  flex-row justify-center items-center text-center ">
+            <h1 className="  mb-4 pb-4 text-4xl font-bold text-[#6AAB33]">{t("team-heading")}</h1>
+            <p className="mt-4 pb-10 sm:px-52 text-justify">
+            {t("team-text")}
+      </p>
+  <div className="flex mx-auto justify-center">
+    <img className="rounded-lg" src="/img/TeamCH.svg" alt="" />
+
+  </div>
+  </div>
+
+  {/* Sostenibilidad */}
+
+  <div className=" p-20 mb-10   relative">
         <h1 id="sostenibilidad" className=" text-[#6AAB33] mb-4 pb-4 text-center text-2xl sm:text-4xl font-bold ">{t("sostenibilidad-heading")}</h1>
             <div className="grid sm:grid-cols-2 mx-auto sm:px-10  gap-10">
               <div>
@@ -74,20 +89,7 @@ const Vision = () => {
         </div>
 
 {/* Sostenibilidad */}
-
-{/* Nuestro equipo */}
-
-<div  className=" p-10 sm:p-0  mb-20  flex-row justify-center items-center text-center ">
-            <h1 className="  mb-4 pb-4 text-4xl font-bold text-[#6AAB33]">{t("team-heading")}</h1>
-            <p className="mt-4 pb-10 sm:px-52 text-justify">
-            {t("team-text")}
-      </p>
-  <div className="flex mx-auto justify-center">
-    <img className="rounded-lg" src="/img/TeamCH.svg" alt="" />
-
-  </div>
-  </div>
-    </Suspense>
+   
 
    
 
@@ -161,7 +163,7 @@ const Vision = () => {
     </section>
   </Carousel>
   </div> */}
-
+ </Suspense>
     </>
 
   )
