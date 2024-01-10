@@ -70,6 +70,7 @@ const Vision = () => {
               </div>
         </div>
         <img className=" absolute sm:top-10 top-6 right-10 " src="/img/sostenibilidadGreen.svg" alt="Sostenibilidad " width={100} height={200} />
+        <img className=" absolute sm:top-10 top-6 left-10 " src="/img/sostenibilidadGreen.svg" alt="Sostenibilidad " width={100} height={200} />
         </div>
 
 {/* Sostenibilidad */}

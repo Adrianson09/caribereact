@@ -36,8 +36,8 @@ const Navbar = () => {
                 
                         <li className='font-bold  p-8 ease-in-out duration-500 hover:scale-125 scroll-smooth'> <a href="#logo">{t("inicio")}</a> </li>
                         <li className='font-bold  p-8 ease-in-out duration-500 hover:scale-125 scroll-smooth'><a  href="#vision">{t("about")}</a></li>
-                        <li className='font-bold  p-8 ease-in-out duration-500 hover:scale-125'><a href="#proyectos">{t("portfolio")}</a></li>
                         <li className='font-bold  p-8 ease-in-out duration-500 hover:scale-125'> <a href="#sostenibilidad">{t("sustainability")}</a></li>
+                        <li className='font-bold  p-8 ease-in-out duration-500 hover:scale-125'><a href="#proyectos">{t("portfolio")}</a></li>
                         <button className='animate-pulse  hover:bg-slate-50 hover:text-black transition duration-700 ease-in-out rounded-md border py-2 px-3 mx-2 ' onClick={changeLanguage} >{t("currentLang")}</button>
                         
                 </ul>
@@ -50,8 +50,8 @@ const Navbar = () => {
                 <ul className='flex flex-col fixed w-full h-full items-center justify-center'>
                     <li className='font-bold text-3xl p-8 ease-in-out duration-500 hover:scale-125 '><a href="#logo">{t("inicio")}</a></li>
                     <li  className='font-bold text-3xl p-8 ease-in-out duration-500 hover:scale-125 '><a  href="#vision">{t("about")}</a></li>
-                    <li className='font-bold text-3xl p-8  ease-in-out duration-500 hover:scale-125'><a href="#proyectos">{t("portfolio")}</a></li>
                     <li className='font-bold text-3xl p-8 ease-in-out duration-500 hover:scale-125'> <a href="#sostenibilidad">{t("sustainability")}</a></li>
+                    <li className='font-bold text-3xl p-8  ease-in-out duration-500 hover:scale-125'><a href="#proyectos">{t("portfolio")}</a></li>
                     <button className='animate-pulse hover:bg-slate-50 hover:text-black transition duration-700 ease-in-out rounded-md border py-2 px-3 md:mx-2  my-2 ' onClick={changeLanguage} >{t("currentLang")}</button>
                 </ul>
             </div>
