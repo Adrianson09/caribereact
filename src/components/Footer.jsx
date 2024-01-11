@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
         
 
-        <p className='text-center pb-2'>© {year}. {t("copy-right")}  <a href="https://bluesat.cr" target="_blank"> Bluesat</a></p>
+        <p className='text-center pb-2'>© {year}. {t("copy-right")}  <a  href="https://bluesat.cr" target="_blank" rel="noreferrer"> Bluesat</a></p>
         <ul class="absolute  top-10 right-10 pb-4 flex justify-center gap-6 md:gap-8">
       <li>
         <a
