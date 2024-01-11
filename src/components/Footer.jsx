@@ -56,8 +56,8 @@ const Footer = () => {
         </div>
         
 
-        <p className='text-center pb-2'>© {year}. {t("copy-right")}</p>
-        <ul class="absolute top-10 right-10 pb-4 flex justify-center gap-6 md:gap-8">
+        <p className='text-center pb-2'>© {year}. {t("copy-right")}  <a href="https://bluesat.cr" target="_blank"> Bluesat</a></p>
+        <ul class="absolute  top-10 right-10 pb-4 flex justify-center gap-6 md:gap-8">
       <li>
         <a
           href="https://www.linkedin.com/company/caribehospitality/"
@@ -67,7 +67,7 @@ const Footer = () => {
         >
           <span class="sr-only">Linkedin</span>
          
-         <img src="/img/linkedinLogo.svg" alt="" />
+         <img  src="/img/linkedinLogo.svg" alt="" />
           
         </a>
       </li>
