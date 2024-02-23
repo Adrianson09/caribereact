@@ -30,7 +30,7 @@ export const ListProjectsSolds = () => {
         <p className="text-white text-lg font-bold">Courtyard Escazú</p>
         {/* <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
         <p className="text-white text-lg font-bold">Habitaciones: 126</p> */}
-        <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Vendido</p>
+        <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
       </div>
       </div>
@@ -66,7 +66,7 @@ export const ListProjectsSolds = () => {
         <p className="text-white text-lg font-bold">Courtyard Santo Domingo</p>
         {/* <p className="text-white text-lg font-bold">Año de Construcción: 2009</p>
         <p className="text-white text-lg font-bold">Habitaciones: 109</p> */}
-        <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Vendido</p>
+        <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
       </div>
 </div>
@@ -102,7 +102,7 @@ export const ListProjectsSolds = () => {
         <p className="text-white text-lg font-bold">Courtyard Port of Spain</p>
         {/* <p className="text-white text-lg font-bold">Año de Construcción: 2022</p>
         <p className="text-white text-lg font-bold">Habitaciones: 120</p> */}
-        <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Vendido</p>
+        <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
       </div>
 </div>
