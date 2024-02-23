@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
 import { ListProjects } from "./ListProjects";
+import { ListProjectsSolds } from "./ListProjectsSolds";
 // import { Carousel } from "@material-tailwind/react";
 
 
@@ -47,6 +48,7 @@ const Vision = () => {
             </div>
   <div className="flex mx-auto justify-center">
     <img className="rounded-lg" src="/img/TeamCH.svg" alt="" />
+    {/* <img className="rounded-lg" src="/img/TEAM.jpg" alt="" /> */}
 
   </div>
   </div>
@@ -66,8 +68,10 @@ const Vision = () => {
                   <li className="list-disc">{t("sostenibilidad-li2")}</li>
                   <li className="list-disc">{t("sostenibilidad-li3")}</li>
         </ul>
-
               </div>
+        </div>
+        <div className="flex mx-auto justify-center">
+        <img src="/img/Portafolio.png" alt="" />
         </div>
         
         </div>
@@ -81,6 +85,11 @@ const Vision = () => {
             <h1 className=" text-4xl font-bold text-[#6AAB33]">{t("portfolio")}</h1>
    </div>
     <ListProjects/>
+
+    <div id="proyectos" className="    flex-row justify-center items-center text-center ">
+            <h1 className=" text-4xl font-bold text-[#6AAB33]">{t("portfolioVendido")}</h1>
+   </div>
+   <ListProjectsSolds/>
 
 
     

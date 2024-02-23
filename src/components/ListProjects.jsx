@@ -64,7 +64,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Residence Inn Escazú Costa Rica</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2009</p>
         <p className="text-white text-lg font-bold">Habitaciones: 109</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -100,7 +100,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Fairfield Alajuela Costa Rica</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2022</p>
         <p className="text-white text-lg font-bold">Habitaciones: 120</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -137,7 +137,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Courtyard Alajuela Costa Rica</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2012</p>
         <p className="text-white text-lg font-bold">Habitaciones: 127</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -173,7 +173,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Hyatt Place Pinares Costa Rica</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2012</p>
         <p className="text-white text-lg font-bold">Habitaciones: 120</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -209,7 +209,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Courtyard Kingston Jamaica</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2015</p>
         <p className="text-white text-lg font-bold">Habitaciones: 129</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -247,7 +247,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Aloft San Juan Puerto Rico</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2020</p>
         <p className="text-white text-lg font-bold">Habitaciones: 177</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -284,7 +284,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Courtyard Hermosillo México</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2016</p>
         <p className="text-white text-lg font-bold">Habitaciones: 133</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -322,7 +322,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Courtyard León México</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2013</p>
         <p className="text-white text-lg font-bold">Habitaciones: 140</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -360,7 +360,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Courtyard San Salvador</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2007</p>
         <p className="text-white text-lg font-bold">Habitaciones: 133</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -396,7 +396,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Fairfield San Salvador</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2017</p>
         <p className="text-white text-lg font-bold">Habitaciones: 130</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
@@ -434,7 +434,7 @@ export const ListProjects = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Courtyard Barbados</p>
-        <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
+        <p className="text-white text-lg font-bold">Año de Construcción: 2012</p>
         <p className="text-white text-lg font-bold">Habitaciones: 118</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
 
