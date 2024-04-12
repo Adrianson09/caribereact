@@ -9,7 +9,7 @@ export const ListProjectsSolds = () => {
   return (
     <Suspense>
 
-    <div className=" px-28  mx-auto my-10">
+    <div className="px-4 md:px-28  mx-auto my-10">
         <div className="grid  md:grid-cols-3 gap-4">
    
 
