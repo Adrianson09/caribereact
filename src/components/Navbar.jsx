@@ -43,7 +43,7 @@ const Navbar = () => {
                 </ul>
            <div className='bg-[#6AAB33] rounded-full'>
             
-            <AiOutlineMenuFold onClick={handleNav} className='z-20   text-white  cursor-pointer  fixed right-10 top-10' size={25}/>
+            <AiOutlineMenuFold onClick={handleNav} className='z-20   text-white  cursor-pointer sm:hidden fixed right-10 top-10' size={25}/>
            </div>     
             <div className={nav ? 'ease-in-out duration-500 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex-col z-10' 
             : 'absolute top-0 h-screen left-[-100%] ease-in-out duration-500 z-10'}>

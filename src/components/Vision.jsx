@@ -47,7 +47,7 @@ const Vision = () => {
             </p>
             </div>
   <div className="flex mx-auto justify-center">
-    <img className="rounded-lg" src="/img/TeamCH.svg" alt="" />
+    {/* <img className="rounded-lg" src="/img/TeamCH.svg" alt="" /> */}
   
 
   </div>
