@@ -40,7 +40,7 @@ export const ListProjectsSolds = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard San José Escazú, Costa Rica</p>
+        <p className="font-medium">Courtyard by Marriott San José Escazú, Costa Rica</p>
       </div>
     
 
@@ -77,7 +77,7 @@ export const ListProjectsSolds = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard Santo Domingo, República Dominicana</p>
+        <p className="font-medium">Courtyard by Marriott Santo Domingo, Republica Dominicana</p>
       </div>
     
 
@@ -113,7 +113,7 @@ export const ListProjectsSolds = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard Port of Spain</p>
+        <p className="font-medium ">Courtyard by Marriott Port of Spain, Trinidad and Tobago</p>
       </div>
     
 

@@ -27,7 +27,7 @@ export const ListProjects = () => {
   />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black rounded-lg bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-300">
-        <p className="text-white text-lg font-bold">AC by Marriott Escazú Costa Rica</p>
+        <p className="text-white text-lg font-bold">AC Hotel by Marriott Escazú Costa Rica</p>
         <p className="text-white text-lg font-bold">Año de Construcción: 2018</p>
         <p className="text-white text-lg font-bold">Habitaciones: 126</p>
         <p className="border-2 p-2 mt-2 text-white text-lg font-bold">Ver Hotel</p>
@@ -40,7 +40,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">AC by Marriott Escazú Costa Rica</p>
+        <p className="font-medium">AC Hotel by Marriott San José Escazú, Costa Rica</p>
       </div>
     
 
@@ -77,7 +77,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Residence Inn Escazú Costa Rica</p>
+        <p className="font-medium">Residence Inn by Marriott San Jose Escazú, Costa Rica</p>
       </div>
     
 
@@ -113,7 +113,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Fairfield Alajuela Costa Rica</p>
+        <p className="font-medium">Fairfield by Marriott San Jose Airport Alajuela, Costa Rica</p>
       </div>
     
 
@@ -150,7 +150,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard Alajuela Costa Rica</p>
+        <p className="font-medium">Courtyard by Marriott San José Airport Alajuela, Costa Rica</p>
       </div>
     
 
@@ -186,7 +186,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Hyatt Place Pinares Costa Rica</p>
+        <p className="font-medium">Hyatt Place San José Pinares, Costa Rica</p>
       </div>
     
 
@@ -222,7 +222,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard Kingston Jamaica</p>
+        <p className="font-medium">Courtyard by Marriott Kingston, Jamaica</p>
       </div>
     
 
@@ -260,7 +260,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Aloft San Juan Puerto Rico</p>
+        <p className="font-medium">Aloft Hotel by Marriott San Juan, Puerto Rico</p>
       </div>
     
 
@@ -297,7 +297,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard Hermosillo México</p>
+        <p className="font-medium">Courtyard by Marriott Hermosillo, México</p>
       </div>
     
 
@@ -335,7 +335,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard León México</p>
+        <p className="font-medium">Courtyard by Marriott León at The Poliforum, México</p>
       </div>
     
 
@@ -373,7 +373,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard San Salvador</p>
+        <p className="font-medium">Courtyard by Marriott San Salvador, El Salvador</p>
       </div>
     
 
@@ -409,7 +409,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Fairfield San Salvador</p>
+        <p className="font-medium">Fairfield by Marriott San Salvador, El Salvador</p>
       </div>
     
 
@@ -447,7 +447,7 @@ export const ListProjects = () => {
       <div>
       
 
-        <p className="font-medium">Courtyard Barbados</p>
+        <p className="font-medium">Courtyard by Marriott Bridgetown, Barbados</p>
       </div>
     
 
