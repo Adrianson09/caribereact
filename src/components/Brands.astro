@@ -1,0 +1,30 @@
+---
+const brands = [
+  { name: 'Marriott Hotels', color: '#8B1A1A', textColor: '#fff' },
+  { name: 'AC Hotels', color: '#1a1a2e', textColor: '#fff' },
+  { name: 'Residence Inn', color: '#2C4A7C', textColor: '#fff' },
+  { name: 'Courtyard', color: '#C8972B', textColor: '#fff' },
+  { name: 'Fairfield', color: '#2E7D32', textColor: '#fff' },
+  { name: 'Aloft Hotels', color: '#E91E63', textColor: '#fff' },
+  { name: 'Hyatt Place', color: '#1565C0', textColor: '#fff' },
+  { name: 'Hyatt Centric', color: '#4A148C', textColor: '#fff' },
+];
+---
+
+<section class="py-14 px-6 bg-gray-50 border-t border-gray-100" data-reveal>
+  <div class="max-w-5xl mx-auto">
+    <p class="text-center text-xs text-gray-400 uppercase tracking-widest mb-8 font-medium">
+      Marcas con las que trabajamos
+    </p>
+    <div class="flex flex-wrap justify-center items-center gap-3 md:gap-4">
+      {brands.map((brand) => (
+        <span
+          class="px-4 py-2 rounded-xl text-sm font-bold tracking-wide shadow-sm"
+          style={`background-color:${brand.color}; color:${brand.textColor};`}
+        >
+          {brand.name}
+        </span>
+      ))}
+    </div>
+  </div>
+</section>

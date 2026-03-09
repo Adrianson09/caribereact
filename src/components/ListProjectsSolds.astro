@@ -8,96 +8,65 @@ interface Hotel {
 }
 
 const hotels: Hotel[] = [
-  {
-    name: 'Courtyard by Marriott San José Escazú, Costa Rica',
-    shortName: 'Courtyard Escazú',
-    img: '/img/CourtyardESCAZU.jpg',
-    url: 'https://www.marriott.com/en-us/hotels/sjocy-courtyard-san-jose-escazu',
-    country: 'Costa Rica',
-  },
-  {
-    name: 'Courtyard by Marriott Santo Domingo, República Dominicana',
-    shortName: 'Courtyard Santo Domingo',
-    img: '/img/COURTYARDSTDOMINGO.jpg',
-    url: 'https://www.marriott.com/es/hotels/sdqcy-courtyard-santo-domingo',
-    country: 'R. Dominicana',
-  },
-  {
-    name: 'Courtyard by Marriott Port of Spain, Trinidad and Tobago',
-    shortName: 'Courtyard Port of Spain',
-    img: '/img/CourtyardPTSpain.avif',
-    url: 'https://www.marriott.com/es/hotels/poscy-courtyard-port-of-spain',
-    country: 'Trinidad',
-  },
-  {
-    name: 'Aloft Hotel by Marriott San Juan, Puerto Rico',
-    shortName: 'Aloft San Juan',
-    img: '/img/aloft.jpg',
-    url: 'https://www.marriott.com/en-us/hotels/sjual-aloft-san-juan/overview/',
-    country: 'Puerto Rico',
-  },
+  { name: 'Courtyard by Marriott San José Escazú, Costa Rica', shortName: 'Courtyard Escazú', img: '/img/CourtyardESCAZU.jpg', url: 'https://www.marriott.com/en-us/hotels/sjocy-courtyard-san-jose-escazu', country: 'Costa Rica' },
+  { name: 'Courtyard by Marriott Santo Domingo, República Dominicana', shortName: 'Courtyard Santo Domingo', img: '/img/COURTYARDSTDOMINGO.jpg', url: 'https://www.marriott.com/es/hotels/sdqcy-courtyard-santo-domingo', country: 'R. Dominicana' },
+  { name: 'Courtyard by Marriott Port of Spain, Trinidad and Tobago', shortName: 'Courtyard Port of Spain', img: '/img/CourtyardPTSpain.avif', url: 'https://www.marriott.com/es/hotels/poscy-courtyard-port-of-spain', country: 'Trinidad' },
+  { name: 'Aloft Hotel by Marriott San Juan, Puerto Rico', shortName: 'Aloft San Juan', img: '/img/aloft.jpg', url: 'https://www.marriott.com/en-us/hotels/sjual-aloft-san-juan/overview/', country: 'Puerto Rico' },
 ];
 ---
 
 <section class="py-20 px-6 md:px-16 bg-white">
   <div class="max-w-7xl mx-auto">
-    <h2
-      class="text-3xl md:text-4xl font-bold text-gray-600 text-center mb-2"
-      data-i18n="portfolioVendido"
-    >
-      Otros Proyectos Desarrollados (Vendidos)
-    </h2>
-    <p class="text-gray-400 text-center mb-12 text-sm tracking-widest uppercase">
-      {hotels.length} propiedades
-    </p>
+    <div data-reveal>
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-500 text-center mb-2" data-i18n="portfolioVendido">
+        Otros Proyectos Desarrollados (Vendidos)
+      </h2>
+      <p class="text-gray-400 text-center mb-12 text-sm tracking-widest uppercase">
+        {hotels.length} propiedades
+      </p>
+    </div>
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      {
-        hotels.map((hotel) => (
-          <a
-            href={hotel.url}
-            target="_blank"
-            rel="noreferrer"
-            class="group block rounded-2xl overflow-hidden bg-gray-50 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100"
-          >
-            <!-- Image -->
-            <div class="relative overflow-hidden h-52">
-              <img
-                src={hotel.img}
-                alt={hotel.shortName}
-                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0"
-              />
-              <!-- Overlay -->
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
-                <div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                  <span class="inline-block border border-white/70 text-white text-xs px-3 py-1 rounded-full" data-i18n="verHotel">
-                    Ver Hotel →
-                  </span>
-                </div>
-              </div>
-
-              <!-- Country badge -->
-              <div class="absolute top-3 right-3">
-                <span class="bg-gray-600 text-white text-xs font-semibold px-2 py-1 rounded-full shadow">
-                  {hotel.country}
-                </span>
-              </div>
-
-              <!-- Sold banner -->
-              <div class="absolute top-3 left-3">
-                <span class="bg-black/70 text-white/80 text-xs font-medium px-2 py-1 rounded-full">
-                  Vendido
+    <!-- Mobile: horizontal scroll carousel; md+: grid -->
+    <div class="flex md:grid md:grid-cols-4 gap-6 overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none pb-4 md:pb-0 -mx-2 px-2 md:mx-0 md:px-0">
+      {hotels.map((hotel) => (
+        <a
+          href={hotel.url}
+          target="_blank"
+          rel="noreferrer"
+          class="group flex-shrink-0 w-72 md:w-auto snap-start block rounded-2xl overflow-hidden bg-gray-50 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100"
+          data-reveal
+        >
+          <div class="relative overflow-hidden h-52">
+            <img
+              src={hotel.img}
+              alt={hotel.shortName}
+              loading="lazy"
+              decoding="async"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
+              <div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <span class="inline-block border border-white/70 text-white text-xs px-3 py-1 rounded-full" data-i18n="verHotel">
+                  Ver Hotel →
                 </span>
               </div>
             </div>
-
-            <!-- Card footer -->
-            <div class="p-4">
-              <p class="text-gray-700 font-medium text-sm leading-snug">{hotel.name}</p>
+            <div class="absolute top-3 right-3">
+              <span class="bg-gray-600 text-white text-xs font-semibold px-2 py-1 rounded-full shadow">
+                {hotel.country}
+              </span>
             </div>
-          </a>
-        ))
-      }
+            <div class="absolute top-3 left-3">
+              <span class="bg-black/70 text-white/80 text-xs font-medium px-2 py-1 rounded-full">
+                Vendido
+              </span>
+            </div>
+          </div>
+          <div class="p-4">
+            <p class="text-gray-700 font-medium text-sm leading-snug">{hotel.name}</p>
+          </div>
+        </a>
+      ))}
     </div>
   </div>
 </section>

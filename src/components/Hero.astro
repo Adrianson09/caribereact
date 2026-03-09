@@ -1,43 +1,35 @@
 ---
 ---
 
-<section id="inicio" class="relative w-full h-screen overflow-hidden">
+<section id="inicio" class="relative w-full h-screen overflow-hidden" aria-label="Inicio — Caribe Hospitality">
+  <!-- Hero image: eager + fetchpriority high para LCP óptimo -->
   <img
     src="/img/exterior1_final.png"
-    alt="Caribe Hospitality - AC Hotel Escazú"
+    alt="AC Hotel by Marriott Escazú — Caribe Hospitality, desarrollador hotelero"
+    width="1920"
+    height="1080"
+    fetchpriority="high"
+    loading="eager"
+    decoding="sync"
     class="absolute inset-0 w-full h-full object-cover"
   />
 
-  <!-- Overlay -->
-  <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/70"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/70" aria-hidden="true"></div>
 
-  <!-- Logo centrado -->
-  <div
-    class="relative z-10 h-full flex flex-col items-center justify-center px-4"
-  >
+  <div class="relative z-10 h-full flex flex-col items-center justify-center px-4">
     <img
       src="/img/CaribeHospitalitySVGGrey.svg"
       alt="Caribe Hospitality"
       width="600"
       height="165"
+      loading="eager"
       class="w-full max-w-[500px] md:max-w-[650px] drop-shadow-2xl animate-jump animate-once animate-duration-1000 animate-delay-200 animate-ease-in-out"
     />
   </div>
 
-  <!-- Scroll indicator -->
-  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-8 w-8 text-white/70"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M19 9l-7 7-7-7"></path>
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
     </svg>
   </div>
 </section>

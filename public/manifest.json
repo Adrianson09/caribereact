@@ -1,25 +1,18 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Caribe Hospitality",
+  "short_name": "Caribe Hospitality",
+  "description": "Desarrollador hotelero líder en la región Caribe y Latinoamérica.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6AAB33",
+  "background_color": "#ffffff",
+  "lang": "es",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "/img/faviconCaribeH.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
