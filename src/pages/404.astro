@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="404 — Página no encontrada | Caribe Hospitality" description="La página que buscas no existe.">
+  <div class="min-h-screen bg-gray-900 flex flex-col items-center justify-center px-6 text-center relative overflow-hidden">
+
+    <!-- Fondo decorativo -->
+    <div class="absolute inset-0 opacity-10">
+      <img
+        src="/img/exterior1_final.png"
+        alt=""
+        class="w-full h-full object-cover"
+        aria-hidden="true"
+      />
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/80 to-gray-900"></div>
+
+    <!-- Contenido -->
+    <div class="relative z-10 max-w-lg">
+      <p class="text-[#6AAB33] font-bold tracking-widest uppercase text-sm mb-4">Error 404</p>
+
+      <h1 class="text-[8rem] md:text-[12rem] font-black text-white/10 leading-none select-none">
+        404
+      </h1>
+
+      <h2 class="text-2xl md:text-3xl font-bold text-white -mt-6 mb-4">
+        Página no encontrada
+      </h2>
+
+      <p class="text-gray-400 mb-10 leading-relaxed">
+        La página que buscas no existe o fue movida.<br />
+        Vuelve al inicio para continuar explorando.
+      </p>
+
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 bg-[#6AAB33] hover:bg-[#5a9428] text-white font-bold px-8 py-3 rounded-xl transition-colors duration-200"
+      >
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+        </svg>
+        Volver al inicio
+      </a>
+    </div>
+
+    <!-- Logo abajo -->
+    <div class="relative z-10 mt-20">
+      <img
+        src="/img/CaribeHospitalitySVGGrey.svg"
+        alt="Caribe Hospitality"
+        width="160"
+        height="44"
+        class="h-8 w-auto brightness-0 invert opacity-30"
+      />
+    </div>
+  </div>
+</Layout>
