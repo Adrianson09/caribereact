@@ -27,6 +27,7 @@ export const translations = {
       'Establecer y monitorear objetivos ambientales y metas energéticas buscando su mejora continua.',
     sostenibilidadLi3:
       'Apoyar las actividades de diseño y adquisición de bienes, procesos, instalaciones, equipos y servicios energéticamente eficientes, que optimicen el desempeño ambiental y energético.',
+    footerDesc: 'Desarrollador hotelero líder en la región Caribe y Latinoamérica.',
     copyRight: 'Derechos reservados Caribe Hospitality.',
     verHotel: 'Ver Hotel',
     anio: 'Año',
@@ -66,6 +67,7 @@ export const translations = {
       'Establishing and monitoring environmental objectives and energy goals for continuous improvement.',
     sostenibilidadLi3:
       'Supporting the design and acquisition of energy-efficient goods, processes, facilities, equipment, and services that optimize environmental and energy performance.',
+    footerDesc: 'Leading hotel developer in the Caribbean and Latin America.',
     copyRight: 'All rights reserved Caribe Hospitality.',
     verHotel: 'View Hotel',
     anio: 'Year',
